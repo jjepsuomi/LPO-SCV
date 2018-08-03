@@ -39,11 +39,11 @@ if __name__=="__main__":
     # If visualization is wanted, set 'visualization = True'. Visualization will result in significantly longer calculation time.  
     visualization = True
     # Run the analysis
-    #skcv_rls(coordinates_skcv, Xdata_skcv, Ydata_skcv, number_of_folds, dead_zone_radiuses, regparam, visualization)
+    skcv_rls(coordinates_skcv, Xdata_skcv, Ydata_skcv, number_of_folds, dead_zone_radiuses, regparam, visualization)
     # Next we try the same analysis, but for k-nearest neighbor
     k = 10 # Number of neighbors
     # Run the analysis
-    #skcv_knn(coordinates_skcv, Xdata_skcv, Ydata_skcv, number_of_folds, dead_zone_radiuses, k, visualization)
+    skcv_knn(coordinates_skcv, Xdata_skcv, Ydata_skcv, number_of_folds, dead_zone_radiuses, k, visualization)
     
 
     ########################################################
